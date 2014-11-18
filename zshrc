@@ -82,6 +82,7 @@ alias gdw='git diff --color-words'
 alias gsh='git stash'
 alias gshp='git stash pop'
 alias gpom='git pull origin master'
+alias gf='git fetch'
 alias stat='stat -x'
 
 export BUNDLER_EDITOR='open -a /Applications/Sublime\ Text\ 2.app/'
