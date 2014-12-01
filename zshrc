@@ -82,6 +82,7 @@ alias gdw='git diff --color-words'
 alias gsh='git stash'
 alias gshp='git stash pop'
 alias gpom='git pull origin master'
+alias gdm='git diff master'
 alias gf='git fetch'
 alias stat='stat -x'
 
