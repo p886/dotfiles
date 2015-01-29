@@ -94,5 +94,5 @@ export PATH=$PATH:$HOME/bin
 export GOPATH=$HOME/go
 export PATH=$PATH:$GOPATH/bin
 
-# RVM
-export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
+# rbenv
+eval "$(rbenv init -)"
