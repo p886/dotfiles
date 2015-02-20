@@ -96,3 +96,9 @@ export PATH=$PATH:$GOPATH/bin
 
 # rbenv
 eval "$(rbenv init -)"
+
+# spring
+rake()     { if [ -f bin/rake ];     then bin/rake "$@";     else rake "$@"; fi }
+rails()    { if [ -f bin/rails ];    then bin/rails "$@";    else rails "$@"; fi }
+rspec()    { if [ -f bin/rspec ];    then bin/rspec "$@";    else rspec "$@"; fi }
+cucumber() { if [ -f bin/cucumber ]; then bin/cucumber "$@"; else cucumber "$@"; fi }
