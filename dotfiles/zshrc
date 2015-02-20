@@ -9,11 +9,8 @@ plugins=(git osx terminalapp rake)
 
 source $ZSH/oh-my-zsh.sh
 
-# User configuration
-
 zstyle ':completion:*' special-dirs true
 
-export PATH=$PATH:"/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/MacGPG2/bin:/opt/sm/bin:/opt/sm/pkg/active/bin:/opt/sm/pkg/active/sbin"
 
 alias gall='git add --all && git status'
 alias rspec='nocorrect rspec'
@@ -25,7 +22,9 @@ alias gdm='git diff master'
 alias gf='git fetch'
 alias stat='stat -x'
 
-export BUNDLER_EDITOR='open -a /Applications/Sublime\ Text\ 2.app/'
+export BUNDLER_EDITOR='subl'
+
+export PATH=$PATH:"/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/MacGPG2/bin:/opt/sm/bin:/opt/sm/pkg/active/bin:/opt/sm/pkg/active/sbin"
 export PATH=$PATH:/usr/texbin
 export PATH=$PATH:$HOME/bin
 
