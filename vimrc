@@ -1,3 +1,8 @@
+" enable line numbers
 set number
-match ErrorMsg '\s\+$'
+
+" save on focus loss
 :au  FocusLost * :wa
+
+" enable syntax highlighting
+syntax on
