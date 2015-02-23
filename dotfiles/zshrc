@@ -5,12 +5,11 @@ ZSH_THEME="murilasso"
 
 ENABLE_CORRECTION="true"
 
-plugins=(git osx terminalapp rake)
+plugins=(git osx terminalapp rbenv)
 
 source $ZSH/oh-my-zsh.sh
 
 zstyle ':completion:*' special-dirs true
-
 
 alias gall='git add --all && git status'
 alias rspec='nocorrect rspec'
@@ -24,7 +23,7 @@ alias stat='stat -x'
 
 export BUNDLER_EDITOR='subl'
 
-export PATH=$PATH:"/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/MacGPG2/bin:/opt/sm/bin:/opt/sm/pkg/active/bin:/opt/sm/pkg/active/sbin"
+export PATH=$PATH:"/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/sm/bin:/opt/sm/pkg/active/bin:/opt/sm/pkg/active/sbin:/usr/local/sbin"
 export PATH=$PATH:/usr/texbin
 export PATH=$PATH:$HOME/bin
 
