@@ -6,3 +6,6 @@ set number
 
 " enable syntax highlighting
 syntax on
+
+" set TAB to 2 spaces
+:set tabstop=2 shiftwidth=2 expandtab
