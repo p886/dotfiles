@@ -1,0 +1,5 @@
+\pset format wrapped
+\pset pager off
+\pset null '(null)'
+\set COMP_KEYWORD_CASE upper
+\set HISTFILE ~/.psql_history- :DBNAME
