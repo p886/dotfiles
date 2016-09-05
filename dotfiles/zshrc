@@ -35,3 +35,7 @@ export PATH=$PATH:$GOPATH/bin
 
 # rbenv
 eval "$(rbenv init - zsh)"
+
+# fix locale issues when connecting to Linux machines via SSH
+export LANG="en_US"
+export LC_ALL=$LANG.UTF-8
