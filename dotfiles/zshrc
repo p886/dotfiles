@@ -21,6 +21,7 @@ alias gdm='git diff master'
 alias gf='git fetch'
 alias stat='stat -x'
 alias rspec='nocorrect rspec'
+alias "go test ./..."="nocorrect go test ./..."
 
 export BUNDLER_EDITOR='subl'
 
